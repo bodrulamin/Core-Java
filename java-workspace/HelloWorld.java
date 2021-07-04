@@ -1,5 +1,16 @@
 class HelloWorld{
 	public static void main(String[] args){
-		System.out.println(System.currentTimeMillis());
+		
+		
+	 
+		float fl = 12.07f;
+		int intval = (int) fl;
+		
+		System.out.println(dvalue);
+		
+		String name = "Bodrul";
+		int age = 21;
+		
+
 	}
 }
