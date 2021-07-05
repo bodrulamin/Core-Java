@@ -8,8 +8,7 @@ class Input{
 	String stname = sc.nextLine();
 	System.out.println("Hello " + stname);
 	
- int minute =	64/60 = 1 minute
-	 64%60 = 4 seconds
+ 
 
 
 		

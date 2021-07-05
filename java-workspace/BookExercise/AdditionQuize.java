@@ -2,7 +2,10 @@ import java.util.Scanner;
 class AdditionQuize{
 	public static void main(String[] ar){
 	int number1 = (int)(System.currentTimeMillis() % 10);
+
 	int number2 = (int)(System.currentTimeMillis() / 7 % 10);
+
+	
 
 	Scanner input = new Scanner(System.in);
 	System.out.print("What is " + number1 + " + " + number2 + "? ");

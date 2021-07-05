@@ -4,8 +4,11 @@ class Marks{
 	public static void main(String[] a){
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter mark");
+			System.exit(1);
 	
-		int bangla = input.nextInt();
+
+
+			int bangla = input.nextInt();
 		int english = input.nextInt();
 		int math = input.nextInt();
 

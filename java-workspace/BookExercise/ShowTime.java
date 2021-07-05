@@ -24,8 +24,7 @@ class ShowTime{
 
 		System.out.println(currentHour + ":" +currentMinute + ":"+ currentSecond);
 			
-		byte abyte ;
-		System.out.println((short)abyte);
+		 
 
 		
 	}
