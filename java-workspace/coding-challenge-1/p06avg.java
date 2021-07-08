@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class p06average{
+class p06avg{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);	
 
