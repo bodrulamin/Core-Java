@@ -40,12 +40,12 @@ public class Employee {
 
     public String getInfo() {
         // String info = name + " " + year + " " + address;
-        String info = String.format("%-10s%-6s%-9s", name, year, address);
+        String info = String.format("%-10s%-9d%-9s", name, year, address);
         return info;
     }
 
     public String getTitle() {
-        String info = String.format("%-10s%-6s%-9s", "Name", "Year", "Address");
+        String info = String.format("%-10s%-9s%-9s", "Name", "Year", "Address");
         return info;
     }
 }
