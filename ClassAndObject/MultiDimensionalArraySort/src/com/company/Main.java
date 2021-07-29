@@ -7,7 +7,7 @@ public class Main {
         for (int i = 0; i < ma.length; i++) {
             int[] ca = ma[i];
             Arrays.sort(ca);
-            ma[i] = ca;
+//            ma[i] = ca;
             for (int j = 0 ; j<ca.length;j++){
                 System.out.print(ca[j] + " ");
             }

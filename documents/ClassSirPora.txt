@@ -1,0 +1,6 @@
+ 
+26-07-2021
+    Prime number
+    Odd even
+    Email Validation
+
