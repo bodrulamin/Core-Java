@@ -1,18 +1,13 @@
 package com.company;
-
 import java.util.Scanner;
-
 public class Main {
-
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Email Address");
-
+        System.out.println("Enter Email");
         String email = sc.nextLine();
-        if (email.contains("@")){
-            System.out.println("Email is correct");
-        }else
-            System.out.println("Incorrect Email");
+        String regex = "^[a-zA-Z0-9]+@[a-zA-Z0-9]+\\.[a-zA-Z]{2,6}$";
+        if (email.matches(regex)) System.out.println("valid mail");
+        else System.out.println("Invalid email");
     }
 }
